@@ -72,7 +72,6 @@ let dbConfig = {
   dialect: 'mysql'
 }
 
-
 if(config.use_env_variable) {
   console.log('Have env.DB = ', process.env.DB)
   console.log()

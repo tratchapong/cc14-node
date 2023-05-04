@@ -17,7 +17,8 @@ child.on('message', (msg) => {
   console.log(`Received message from child: ${msg}`);
 });
 
-// Listen for the exit event on the child process
+// Listen for the exit on the child process 
 child.on('exit', (code, signal) => {
   console.log(`Child process exited with code ${code} and signal ${signal}`);
 });
+
