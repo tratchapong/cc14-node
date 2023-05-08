@@ -3,12 +3,12 @@ const fsa = require('fs/promises')
 
 // time consume with ReadFileSync
 console.time('readFileSync')
-let data1 = fs.readFileSync('./file01.txt')
-console.log(data1.toString())
-let data2 = fs.readFileSync('./file02.txt')
-console.log(data2.toString())
-let data3 = fs.readFileSync('./file03.txt')
-console.log(data3.toString())
+let data1 = fs.readFileSync('./file01.txt','utf8')
+console.log(data1)
+let data2 = fs.readFileSync('./file02.txt','utf8')
+console.log(data2)
+let data3 = fs.readFileSync('./file03.txt','utf8')
+console.log(data3)
 console.timeEnd('readFileSync')
 
 // with Asynchronous callback
