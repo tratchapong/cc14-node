@@ -1,1 +1,0 @@
-This text in is readme.txt in fs02 : Codecamp14
